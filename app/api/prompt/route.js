@@ -13,7 +13,7 @@ export const GET = async(req,res) => {
             status : 200
         })
     } catch (error) {
-        return new Response(JSON.stringify(prompts) , {
+        return new Response(JSON.stringify() , {
             status : 500
         })
     }
