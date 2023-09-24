@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.home
+{
+    padding: .5rem;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+}
+.head-text
+{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: clamp(2.8rem,7vw,4rem);
+    font-weight: 800;
+}
+#head-title-break
+{
+    display: none;
+}
+.orange-gradient 
+{   
+    text-align: center;
+    background: -webkit-linear-gradient(45deg,orange, rgb(255, 200, 0), orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.head-p
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: clamp(1rem,2vw,1.2rem);
+    font-weight: 500;
+}
+@media screen and (max-width : 426px){
+    #head-title-break{
+        display: block;
+    }
+}
